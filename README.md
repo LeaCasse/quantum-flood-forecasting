@@ -6,11 +6,12 @@ This repository contains Jupyter notebooks exploring Quantum Re-Uploading Units 
 
 ```
 ├── README.md
-├── requirements.txt
-├── simple_QRU_protype.ipynb
-├── First_try_not_advantageaous_yet_18.05.ipynb
-├── LSTM_QRU_parallele.ipynb
-└── True_QLSTM_Schedule_sampl.ipynb
+├── notebooks/
+│   ├── simple_QRU_protype.ipynb
+│   ├── First_try_not_advantageaous_yet_18.05.ipynb
+│   ├── LSTM_QRU_parallele.ipynb
+│   └── True_QLSTM_Schedule_sampl.ipynb
+└── data/
 ```
 
 ## 🚀 Installation
