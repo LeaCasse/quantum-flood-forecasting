@@ -7,6 +7,7 @@ This repository contains Jupyter notebooks exploring Quantum Re-Uploading Units 
 ```
 ├── README.md
 ├── notebooks/
+│   ├── WQC.ipynb
 │   ├── simple_QRU_protype.ipynb
 │   ├── First_try_not_advantageaous_yet_18.05.ipynb
 │   ├── LSTM_QRU_parallele.ipynb
@@ -32,7 +33,7 @@ pip install -r requirements.txt
 ```
     jupyter lab
 ```
-## 📓 Notebooks
+## 📓 Notebooks (Main one is WQC.ipynb)
 ### 1. simple_QRU_protype.ipynb
 
 Title: Quantum Data Re-Uploading Unit (QRU) for River Level Prediction
@@ -54,6 +55,9 @@ Compares classical LSTM and quantum QRU models in parallel on the same hydrologi
 
 Description:
 Implements a Quantum-LSTM (QLSTM) architecture with custom scheduling and sampling strategies for streaming data. Demonstrates hybrid circuit design and performance on sequence prediction.
+
+### Others
+QRU_QRBs_River_levels.py and theory_vqc_qru.py to better understand some concepts.
 
 ##🔧 Requirements
 
