@@ -1,4 +1,4 @@
-# Quantum River Forecasting and Insurance Prototype
+# DelphiQ : Quantum Climate Risk Insurance Prototype
 
 This repository contains Jupyter notebooks exploring Quantum Re-Uploading Units (QRU) and hybrid quantum-classical models (QLSTM, QAOA) for hydrological forecasting and climate-risk insurance applications.
 
