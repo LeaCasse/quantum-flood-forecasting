@@ -8,6 +8,7 @@ This repository contains Jupyter notebooks exploring Quantum Re-Uploading Units 
 ├── README.md
 ├── notebooks/
 │   ├── WQC.ipynb
+│   ├── Predicted_risk.ipynb
 │   ├── simple_QRU_protype.ipynb
 │   ├── First_try_not_advantageaous_yet_18.05.ipynb
 │   ├── LSTM_QRU_parallele.ipynb
@@ -33,7 +34,10 @@ pip install -r requirements.txt
 ```
     jupyter lab
 ```
-## 📓 Notebooks (Main one is WQC.ipynb)
+## 📓 Notebooks
+
+The notebook WBC.ipynb serves as a reference for the initial proof-of-concept idea.
+
 ### 1. simple_QRU_protype.ipynb
 
 Title: Quantum Data Re-Uploading Unit (QRU) for River Level Prediction
@@ -56,8 +60,15 @@ Compares classical LSTM and quantum QRU models in parallel on the same hydrologi
 Description:
 Implements a Quantum-LSTM (QLSTM) architecture with custom scheduling and sampling strategies for streaming data. Demonstrates hybrid circuit design and performance on sequence prediction.
 
+### 5. Predicted_risk.ipynb
+
+Description:
+This notebook demonstrates end‐to‐end evaluation of a pre‐trained Quantum Reuploading Unit (QRU) for next‐day river‐level prediction: it loads and preprocesses hourly rainfall/flow/river data, constructs daily samples, normalizes features, loads saved QRU parameters, computes test predictions (especially for the last 14 days and all of 2025), and visualizes true vs. predicted levels, historical median/95th‐percentile curves, and flood‐risk scores. It also notes that further training and hybrid quantum‐classical enhancements (e.g., LSTM integration, entanglement layers) will be explored to improve accuracy.
+
 ### Others
 QRU_QRBs_River_levels.py and theory_vqc_qru.py to better understand some concepts.
+
+The file nz_river_sites_map.html is an interactive map displaying river sites across New Zealand and highlighting areas at risk of flooding.
 
 ##🔧 Requirements
 
