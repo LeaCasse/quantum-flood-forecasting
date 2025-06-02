@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ```
 ## 📓 Notebooks
 
-The notebook WBC.ipynb serves as a reference for the initial proof-of-concept idea.
+#### The notebook qic_wbc.ipynb serves as main reference for the initial proof-of-concept idea.
 
 ### 1. simple_QRU_protype.ipynb
 
