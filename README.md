@@ -7,6 +7,7 @@ This repository contains Jupyter notebooks exploring Quantum Re-Uploading Units 
 ```
 ├── README.md
 ├── notebooks/
+│   ├── qic-wbc.ipynb
 │   ├── WQC.ipynb
 │   ├── Predicted_risk.ipynb
 │   ├── simple_QRU_protype.ipynb
